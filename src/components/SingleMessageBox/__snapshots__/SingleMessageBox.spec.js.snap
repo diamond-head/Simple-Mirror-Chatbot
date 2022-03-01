@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SingleMessageBox /> component SingleMessageBox snapshot renders 1`] = `
+<div
+  className="single-msg-box__container"
+>
+  <div
+    className="single-msg-box__wrapper left"
+  >
+    Hi
+  </div>
+</div>
+`;

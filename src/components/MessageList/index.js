@@ -17,8 +17,8 @@ export default function MessageList({
   const getSide = (i) => i.source === source ? "right" : "left";
 
   React.useEffect(() => {
-    if (listRef && listRef.current) {
-      listRef.current.scrollTo(0, listRef.current.scrollHeight);
+    if (listRef && listRef.current && listRef.current.scrollTo) {
+      listRef.current?.scrollTo(0, listRef.current.scrollHeight);
     }
   }, [messages.length]);
 

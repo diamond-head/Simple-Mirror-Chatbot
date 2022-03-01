@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFooter /> component InputFooter snapshot renders 1`] = `
+<div
+  className="input-footer__container"
+>
+  <div
+    className="controlled-input__container"
+  >
+    <textarea
+      className="controlled-input__textarea"
+      name="message-input-box"
+      onChange={[Function]}
+      placeholder="Type your message..."
+      rows={1}
+      value=""
+    />
+  </div>
+  <img
+    alt="send-button"
+    className="send-button"
+    onClick={[Function]}
+    src="test-file-stub"
+  />
+</div>
+`;

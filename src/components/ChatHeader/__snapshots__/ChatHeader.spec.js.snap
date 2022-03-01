@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatHeader /> component ChatHeader snapshot renders 1`] = `
+<div
+  className="chat-header__container"
+>
+  <div
+    className="chat-header__icon"
+  >
+    <img
+      alt="header-profile-icon"
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="chat-header__title"
+  >
+    Amber
+  </div>
+</div>
+`;

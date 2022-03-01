@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component app snapshot renders 1`] = `
+<div
+  className="App__container"
+>
+  <div
+    className="App__wrapper"
+  >
+    <div
+      className="chat-header__container"
+    >
+      <div
+        className="chat-header__icon"
+      >
+        <img
+          alt="header-profile-icon"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="chat-header__title"
+      >
+        Amber
+      </div>
+    </div>
+    <div
+      className="message-list__container"
+    />
+    <div
+      className="input-footer__container"
+    >
+      <div
+        className="controlled-input__container"
+      >
+        <textarea
+          className="controlled-input__textarea"
+          name="message-input-box"
+          onChange={[Function]}
+          placeholder="Type your message..."
+          rows={1}
+          value=""
+        />
+      </div>
+      <img
+        alt="send-button"
+        className="send-button"
+        onClick={[Function]}
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+</div>
+`;
