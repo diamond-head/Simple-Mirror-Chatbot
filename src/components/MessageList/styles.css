@@ -1,0 +1,13 @@
+.message-list__container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  max-height: calc(100vh - 135px);
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.message-item__wrapper {
+  display: flex;
+}

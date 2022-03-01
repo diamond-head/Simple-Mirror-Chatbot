@@ -1,0 +1,25 @@
+.single-msg-box__container {
+}
+
+.single-msg-box__wrapper {
+  border-radius: 12px;
+  border: 0.5px solid var(--text-gray-50);
+  padding: 16px;
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.single-msg-box__wrapper.left {
+  background-color: var(--white);
+  color: var(--text-gray);
+}
+
+.single-msg-box__wrapper.right{
+  background-color: var(--primary-color);
+  color: var(--white);
+}

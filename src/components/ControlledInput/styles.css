@@ -1,0 +1,23 @@
+.controlled-input__container {
+  width: 100%;
+}
+
+.controlled-input__textarea {
+  resize: none;
+  outline: none;
+  padding: 16px;
+  margin: 0;
+  border: none;
+  min-width: 100%;
+  min-height: 50px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  box-shadow: none;
+  letter-spacing: 0;
+  color: var(--text-gray);
+  line-height: 20px;
+  width: auto;
+  background: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
